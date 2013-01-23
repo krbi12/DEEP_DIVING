@@ -62,7 +62,6 @@ var setBubbleQuantity = 50,
 // Generate bubbles.
 	
 	var generateBubbles = function(){
-		var position = 0;
 		for (var i = 0; i < setBubbleQuantity; i++) {
 			bubbles[i] = new Bubble();
 		}
