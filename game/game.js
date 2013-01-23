@@ -185,7 +185,7 @@ var diver = new (function(){
 	}
 	}
 	
-// Make sure that diver stays within the canvas
+// Make sure that diver is within the canvas. If he is, move 4 pixels every frame towards new target
 
 		that.checkXPosition = function(){
 	    if(that.newX < that.X) {
